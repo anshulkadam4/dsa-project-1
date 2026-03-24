@@ -62,7 +62,6 @@ Input:
   - 4 103 login
 
 Output:
-  - 1 101 login
-  - 2 102 login
-  - 3 101 logout
-  - 4 103 login
+  -countActiveAt(2) → 2
+  -countActiveAt(3) → 1
+  -countActiveAt(4) → 2
